@@ -31,7 +31,7 @@ Please note: Only letters, numbers and underscores are allowed in the filenames.
 | INSTRUMENT    | Mass Analyzer Instrument                 | REQUIRED | qTof, QQQ, Ion Trap, Hybrid FT, Orbitrap, ToF                   | Yes |
 | IONSOURCE     | Source of Ions                           | REQUIRED | LC-ESI, DI-ESI, EI, APCI, ESI                                             | Yes |
 | EXTRACTSCAN   | Spectrum Scan of Spectrum                | REQUIRED |                                                            | Yes |
-| SMILES        | Smiles Structure                         | N/A      |                                                            | No  |
+| SMILES        | Smiles Structure                         | N/A      | Canonical/Isomeric both ACCEPTED                           | No  |
 | INCHI         | Inchi Structure                          | N/A      |                                                            | No  |
 | INCHIAUX      | Inchi Auxiliary Structure                | N/A      |                                                            | No  |
 | CHARGE        | Charge of Precursor (0 to pull from the spectrum file) | 0 |                                                     | No  |
